@@ -47,7 +47,7 @@ const ProjectDetail = () => {
 
           <div className="flex gap-5 justify-center items-center pb-5">
             <Link href={link} legacyBehavior>
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button class="bg-[#f87171] dark:bg-[#fcd34d] hover:bg-gray-900 hover:text-white text-black border-2 border-[#6366f1] font-bold py-3 px-4 inline-flex items-center rounded-xl mt-16">
                   <svg
                     class="fill-current w-5 h-5 mr-2"
@@ -67,7 +67,7 @@ const ProjectDetail = () => {
               </a>
             </Link>
             <Link href={link} legacyBehavior>
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <button class="bg-[#f87171] dark:bg-[#fcd34d] hover:bg-gray-900 hover:text-white text-black border-2 border-[#6366f1] font-bold py-3 px-4 inline-flex items-center rounded-xl mt-16">
                   <SiGithub />
                   <span>github</span>

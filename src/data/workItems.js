@@ -5,10 +5,45 @@ import pro3 from '../../public/images/projects/shareme.PNG';
 import pro4 from '../../public/images/projects/portfolio.PNG';
 import pro5 from '../../public/images/projects/adafood.png';
 import pro6 from '../../public/images/projects/mekiya.png';
+import coffee from '../../public/images/projects/coffee.png';
 
 const workItems = [
-  {
+   {
     id: 1,
+    tag: 'Web Application',
+    title: 'landing page website',
+    imageUrl: pro6,
+    date: '06/20/2024',
+    link: 'http://mekiyaenterprise.com/',
+    des: 'Landing page website for company',
+    details:
+      "Project: Website Development for Mekiya Enterprise. 🌐 Client: Mekiya Enterprise 🛠️ Tools Used: Next JS, Tailwindcss, GSAP, Framer-Motion 🎯 Objective: Designed and developed a dynamic, user-friendly website to showcase Mekiya Enterprise’s services, enhance their online presence, and drive customer engagement. Key Contributions: ✅ Developed a fully responsive website using Next JS, ensuring a seamless experience across desktops, tablets, and mobile devices. ✅ Customized themes and plugins to reflect the client’s brand identity and business objectives. ✅ Implemented key features such as service pages, contact forms, and call-to-action elements to improve user interaction and lead generation. ✅ Collaborated closely with the client to understand their needs and deliver a website that aligned with their vision and goals. Outcome: 🚀 Delivered a professional, visually appealing website that strengthened Mekiya Enterprise’s online presence, improved customer engagement, and provided a scalable platform for future updates.",
+    tech: {
+      1: 'Next JS',
+      2: 'Tailwindcss',
+      3: 'GSAP',
+      4: 'Framer-Motion'
+    },
+  },
+  {
+    id: 2,
+    tag: 'Web Application',
+    title: 'Mekiya Coffee Landing Page',
+    imageUrl: coffee,
+    date: '09/10/2025',
+    link: 'http://mekiyacoffee.com/',
+    des: 'Landing page website for Mekiya Coffee',
+    details:
+      "Project: Website Development for Mekiya Coffee. 🌐 Client: Mekiya Coffee ☕ Tools Used: Next JS, Tailwindcss, GSAP, Framer-Motion 🎯 Objective: Designed and developed a vibrant, user-friendly website to showcase Mekiya Coffee’s premium products, highlight their brand story, and drive customer engagement. Key Contributions: ✅ Built a fully responsive website using Next JS, ensuring a seamless experience across desktops, tablets, and mobile devices. ✅ Customized themes and animations to reflect Mekiya Coffee’s warm, inviting brand identity. ✅ Implemented key features such as product pages, an interactive menu, contact forms, and call-to-action elements to enhance user interaction and boost sales. ✅ Collaborated closely with the client to align the website with their vision of promoting high-quality coffee and exceptional customer experiences. Outcome: 🚀 Delivered a visually stunning, professional website that elevated Mekiya Coffee’s online presence, increased customer engagement, and provided a scalable platform for future growth.",
+    tech: {
+      1: 'Next JS',
+      2: 'Tailwindcss',
+      3: 'GSAP',
+      4: 'Framer-Motion'
+    }
+},
+  {
+    id: 3,
     tag: 'Web Application',
     title: 'Afro Sweden Real Estate',
     date: '11/26/2023',
@@ -24,7 +59,7 @@ const workItems = [
     },
   },
   {
-    id: 2,
+    id: 4,
     tag: 'Web Application',
     title: 'Share Me',
     date: '11/26/2023',
@@ -41,7 +76,7 @@ const workItems = [
     },
   },
   {
-    id: 3,
+    id: 5,
     tag: 'Web Application',
     title: 'Nubia Ecommerce',
     imageUrl: pro1,
@@ -58,7 +93,7 @@ const workItems = [
     },
   },
   {
-    id: 4,
+    id: 6,
     tag: 'UI',
     title: 'News home page',
     imageUrl: pro2,
@@ -74,7 +109,7 @@ const workItems = [
     },
   },
   {
-    id: 5,
+    id: 7,
     tag: 'Portfolio',
     title: 'Portfolio website',
     imageUrl: pro4,
@@ -91,7 +126,7 @@ const workItems = [
   },
   // Add more work items with different tags, titles, and image URLs
   {
-    id: 6,
+    id: 8,
     tag: 'Web Application',
     title: 'landing page website',
     imageUrl: pro5,
@@ -106,23 +141,7 @@ const workItems = [
       3: 'HTML',
     },
   },
-
-  {
-    id: 7,
-    tag: 'Web Application',
-    title: 'landing page website',
-    imageUrl: pro6,
-    date: '06/20/2024',
-    link: 'http://mekiyaenterprise.com/',
-    des: 'Landing page website for company',
-    details:
-      "Project: Website Development for Mekiya Enterprise. 🌐 Client: Mekiya Enterprise 🛠️ Tools Used: WordPress, Elementor (or other plugins/themes if applicable), HTML/CSS, Adobe Suite (for graphics if used) 🎯 Objective: Designed and developed a dynamic, user-friendly website to showcase Mekiya Enterprise’s services, enhance their online presence, and drive customer engagement. Key Contributions: ✅ Developed a fully responsive website using WordPress, ensuring a seamless experience across desktops, tablets, and mobile devices. ✅ Customized themes and plugins to reflect the client’s brand identity and business objectives. ✅ Implemented key features such as service pages, contact forms, and call-to-action elements to improve user interaction and lead generation. ✅ Collaborated closely with the client to understand their needs and deliver a website that aligned with their vision and goals. Outcome: 🚀 Delivered a professional, visually appealing website that strengthened Mekiya Enterprise’s online presence, improved customer engagement, and provided a scalable platform for future updates.",
-    tech: {
-      1: 'Wordpress',
-      2: 'CSS',
-      3: 'HTML',
-    },
-  },
+  
 ];
 
 export default workItems;
