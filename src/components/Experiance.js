@@ -67,7 +67,7 @@ const Experiance = () => {
                     AI Model Trainer - UBUNTU AI, California
                   </p>
                   <p className="text-gray-700 dark:text-gray-500 font-semibold leading-7">
-                    Evaluated AI models by asking targeted programming questions across various categories (e.g., syntax, algorithms, debugging). Analyzed model responses, selected the best answers, and provided detailed justifications for their accuracy. Trained and fine-tuned models to improve their performance and learning capabilities. Provided feedback to enhance the models' understanding of programming concepts and problem-solving. Collaborated with teams to ensure models were reliable and effective for real-world programming tasks. Contributed to the development of smarter, more accurate AI models through iterative evaluation and training.
+                    Evaluated AI models by asking targeted programming questions across various categories (e.g., syntax, algorithms, debugging). Analyzed model responses, selected the best answers, and provided detailed justifications for their accuracy. Trained and fine-tuned models to improve their performance and learning capabilities. Provided feedback to enhance the models&apos; understanding of programming concepts and problem-solving. Collaborated with teams to ensure models were reliable and effective for real-world programming tasks. Contributed to the development of smarter, more accurate AI models through iterative evaluation and training.
                   </p>
                 </div>
               </div>
