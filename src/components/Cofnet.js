@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const Cofnet = () => {
 
-  const resumePdfUrl = "/EgnumaGelanaCV.pdf"; 
+  const resumePdfUrl = "/EG-Graphics.pdf"; 
 
   const openPdfInNewWindow = () => {
-    window.open(resumePdfUrl, "_blank");
+    window.open(resumePdfUrl);
   };
   return (
     <div className='absolute left-4 bottom-4 
