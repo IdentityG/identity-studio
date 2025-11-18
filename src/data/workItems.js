@@ -8,7 +8,7 @@ import pro6 from '../../public/images/projects/mekiya.png';
 import coffee from '../../public/images/projects/coffee.png';
 import identityStudio from '../../public/images/projects/studios.png';
 import bmElectro from '../../public/images/projects/bm.png';
-import aydu from '../../public/images/projects/ayudc.png';
+import aydu from '../../public/images/projects/aydu.png';
 
 const workItems = [
    {
