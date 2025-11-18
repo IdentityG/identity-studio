@@ -6,6 +6,9 @@ import pro4 from '../../public/images/projects/portfolio.PNG';
 import pro5 from '../../public/images/projects/adafood.png';
 import pro6 from '../../public/images/projects/mekiya.png';
 import coffee from '../../public/images/projects/coffee.png';
+import identityStudio from '../../public/images/projects/studios.png';
+import bmElectro from '../../public/images/projects/bm.png';
+import aydu from '../../public/images/projects/ayudc.png';
 
 const workItems = [
    {
@@ -139,6 +142,59 @@ const workItems = [
       1: 'Wordpress',
       2: 'CSS',
       3: 'HTML',
+    },
+  },
+  {
+    id: 9,
+    tag: 'Template / Concept',
+    title: 'Identity Studios – Creative Digital Agency Template',
+    imageUrl: identityStudio,
+    date: '11/10/2025',
+    link: 'https://identitystudios.vercel.app/',
+    des: 'High-end digital agency template with premium animations',
+    details:
+      "A premium digital agency template I designed from scratch to push the boundaries of modern web experiences. Features bold typography, glassmorphism effects, smooth GSAP scroll animations, and cinematic page transitions. Built as a ready-to-use template for creative agencies, studios, or freelancers who want to stand out instantly.",
+    tech: {
+      1: 'Next.js 14',
+      2: 'Tailwind CSS',
+      3: 'GSAP',
+      4: 'Framer Motion',
+    },
+  },
+
+  {
+    id: 10,
+    tag: 'Template / Concept',
+    title: 'B&M Electro Mechanical – Corporate Template',
+    imageUrl: bmElectro,
+    date: '08/10/2025',
+    link: 'https://bm-pi-five.vercel.app/',
+    des: 'Professional corporate template for engineering & industrial companies',
+    details:
+      "A sleek, trustworthy corporate template tailored for engineering, manufacturing, and B2B companies. Features smooth parallax sections, animated counters, timeline layouts, and a clean professional aesthetic — all powered by advanced GSAP timelines and Framer Motion micro-interactions. Perfect starting point for serious business websites.",
+    tech: {
+      1: 'Next.js 14',
+      2: 'Tailwind CSS',
+      3: 'GSAP',
+      4: 'Framer Motion',
+    },
+  },
+
+  {
+    id: 11,
+    tag: 'Template / Concept',
+    title: 'African Youth Development Union – NGO Template',
+    imageUrl: aydu,
+    date: '07/25/2025',
+    link: 'https://ayudc-web.vercel.app/',
+    des: 'Inspiring template for NGOs, nonprofits & youth organizations',
+    details:
+      "A vibrant, purpose-driven template designed for nonprofits, youth organizations, and community initiatives across Africa and beyond. Includes impact sections, donation CTAs, event showcases, and emotional storytelling layouts — all brought to life with energetic animations, bold African-inspired colors, and smooth scroll effects using GSAP + Framer Motion.",
+    tech: {
+      1: 'Next.js 14',
+      2: 'Tailwind CSS',
+      3: 'GSAP',
+      4: 'Framer Motion',
     },
   },
   
